@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* 桌機版的樣式 */
+    @media only screen and (min-width: 601px) {
+      body {
+        background-color: lightblue;
+      }
+      
+      h1 {
+        color: navy;
+        font-size: 24px;
+        text-align: center;
+      }
+      
+      p {
+        color: darkblue;
+        font-size: 18px;
+        text-align: center;
+      }
+	  img {
+        width: 1201px;
+        height: 1291px;
+      }
+
+    }
+    
+    /* 400*628 螢幕大小的樣式 */
+    @media only screen and (max-width: 400px) and (max-height: 628px) {
+      body {
+        background-color: lightgray;
+      }
+      
+      h1 {
+        color: gray;
+        font-size: 20px;
+        text-align: left;
+      }
+      
+      p {
+        color: darkgray;
+        font-size: 16px;
+        text-align: left;
+      }
+	  img {
+       width: 100%; /* 圖片寬度佔滿父容器寬度 */
+       height: auto; /* 高度根據比例自動調整 */
+       }
+    }
+  </style>
+</head>
+<body>
+  <h1></h1>
+  <p></p>
+  <td rowspan="16">
+			<img src="images/0.png" alt=""></td>
+</body>
+</html>
